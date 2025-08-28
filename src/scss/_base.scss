@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 a {
@@ -11,4 +10,19 @@ a {
 img,
 video {
   display: block;
+}
+
+body {
+  font-family: "Karla";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+:root {
+  --pink-300: #faa8a8;
+  --white: #fff;
+  --gray-900: #161a1c;
+  --gray-500: #928c8c;
+  --pink-100: #ebdcdc;
 }

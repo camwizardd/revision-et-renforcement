@@ -1,0 +1,33 @@
+button {
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary-default {
+  border: none;
+  padding: 8px 12px;
+  background: var(--pink-300);
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-secondary-default {
+  display: flex;
+  padding: 8px 12px;
+  border: 1px solid var(--gray-900);
+  background-color: var(--white);
+  transition: all 0.3s ease-in-out;
+}
+
+.primary-default:hover {
+  background-color: white;
+  border: 1px solid;
+  color: #faa8a8;
+}
+
+.secondary-default:hover {
+  border: 1px solid;
+  color: var(--gray-500);
+}

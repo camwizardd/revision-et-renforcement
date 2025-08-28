@@ -5,9 +5,117 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <div class="section">
+      <button class="btn-primary-default">Texte du bouton</button>
+      <button class="btn-secondary-default">Texte du bouton</button>
+    </div>
+
+    <div class="section">
+      <article>
+        <img
+          class="card-img"
+          src="img/image-mountain.jpg?as=webp"
+          alt="fille devant des montagnes"
+        />
+        <div class="card-content">
+          <h3 class="card-content-legend">6 minutes de lecture</h3>
+          <a href="" class="card-content-title"
+            >Voyages dans les Dolomites en van</a
+          >
+          <p class="card-content-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+            accumsan, tortor quis volutpat euismod, justo nisl lacinia sem, nec
+            consectetur enim metus placerat lacus.
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <div class="section">
+      <div class="burger">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+        >
+          <g clip-path="url(#clip0_1_41)">
+            <mask
+              id="mask0_1_41"
+              style="mask-type: luminance"
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="24"
+              height="24"
+            >
+              <path
+                d="M23.5 0.5V23.5H0.5V0.5H23.5Z"
+                fill="white"
+                stroke="white"
+              />
+            </mask>
+            <g mask="url(#mask0_1_41)">
+              <path d="M4 6H20H4Z" fill="#161A1C" />
+              <path
+                d="M4 6H20"
+                stroke="#161A1C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path d="M4 12H20H4Z" fill="#161A1C" />
+              <path
+                d="M4 12H20"
+                stroke="#161A1C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path d="M4 18H16H4Z" fill="#161A1C" />
+              <path
+                d="M4 18H16"
+                stroke="#161A1C"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+          </g>
+          <defs>
+            <clipPath id="clip0_1_41">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Conseils</a></li>
+          <li><a href="#">A propos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <form>
+        <h2 class="form-title">Formulaire de contact</h2>
+        <div class="form-request"></div>
+      </form>
+    </div>
 
     <script src="js/main.js" type="module"></script>
   </body>
